@@ -54,8 +54,20 @@ ros2 topic pub -r 1 /turtle1/cmd_vel geometry_msgs/msg/Twist \
 # 列出所有服务
 ros2 service list
 
+# 查看类型
+ros2 service type <service_name>
+
+#查找
+ros2 service find <type_name>
+
+# 参数结构
+ros2 interface show <type_name>.srv
+
 # 生成新海龟（名为turtle2，位置(5.5, 5.5)）
 ros2 service call /spawn turtlesim/srv/Spawn "{x: 5.5, y: 5.5, theta: 0.0, name: 'turtle2'}"
+
+# 控制第二个
+ros2 run turtlesim turtle_teleop_key --ros-args --remap turtle1/cmd_vel:=turtle2/cmd_vel
 
 # 清除轨迹
 ros2 service call /clear std_srvs/srv/Empty
@@ -75,6 +87,14 @@ ros2 param get /turtlesim background_r
 ros2 param set /turtlesim background_r 100
 ros2 param set /turtlesim background_g 100
 ros2 param set /turtlesim background_b 100
+
+# 存储
+ros2 param dump <node_name>
+
+# 加载
+ros2 param load <node_name> <parameter_file>
+ros2 run <package_name> <executable_name> --ros-args  --params-file <file_name>
+ros2 run turtlesim turtlesim_node --ros-args --params-file ./param.yaml
 ```
 
 ---
@@ -83,6 +103,9 @@ ros2 param set /turtlesim background_b 100
 ```bash
 # 列出所有动作
 ros2 action list
+
+# 反思
+ros2 action info xxx
 
 # 让海龟旋转到绝对角度（如90度=1.57弧度）
 ros2 action send_goal /turtle1/rotate_absolute turtlesim/action/RotateAbsolute \
