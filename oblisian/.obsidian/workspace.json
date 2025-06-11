@@ -1,0 +1,177 @@
+{
+  "main": {
+    "id": "9ae1d59ef1bd60f1",
+    "type": "split",
+    "children": [
+      {
+        "id": "3deb5ce087db0344",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "de9fa0f9fcab0312",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "chapter0 基本概念/Basic concept.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Basic concept"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "4af96194ee10addd",
+    "type": "split",
+    "children": [
+      {
+        "id": "a9bf821cc7a6afeb",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "91a29c3570e1fccc",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "文件列表"
+            }
+          },
+          {
+            "id": "7163ca54bf5dc5ea",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "tag:#turtlesim",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "搜索"
+            }
+          },
+          {
+            "id": "f2b5c3f65f808d67",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "书签"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "e3898d87915bbf2f",
+    "type": "split",
+    "children": [
+      {
+        "id": "33a3f973a23bf566",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "3d7ad81ff7454083",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "chapter0 基本概念/Basic concept.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Basic concept 的反向链接列表"
+            }
+          },
+          {
+            "id": "988d0395e75cd0ed",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "chapter0 基本概念/Basic concept.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Basic concept 的出链列表"
+            }
+          },
+          {
+            "id": "e6fe5335f1e33529",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "chapter0 基本概念/Basic concept.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Basic concept 的大纲"
+            }
+          },
+          {
+            "id": "8e664f08d7e60bcd",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "标签"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:打开快速切换": false,
+      "graph:查看关系图谱": false,
+      "canvas:新建白板": false,
+      "daily-notes:打开/创建今天的日记": false,
+      "templates:插入模板": false,
+      "command-palette:打开命令面板": false
+    }
+  },
+  "active": "de9fa0f9fcab0312",
+  "lastOpenFiles": [
+    "chapter0 基本概念/图形化.md",
+    "chapter0 基本概念/Basic concept.md",
+    "chapter0 基本概念"
+  ]
+}
