@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "route.md",
+                "file": "chapter0 基本概念/图形化.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "route"
+              "title": "图形化"
             }
           }
         ]
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "route.md",
+                "file": "chapter0 基本概念/图形化.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "route 的反向链接列表"
+              "title": "图形化 的反向链接列表"
             }
           },
           {
@@ -113,12 +113,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "route.md",
+                "file": "chapter0 基本概念/图形化.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "route 的出链列表"
+              "title": "图形化 的出链列表"
             }
           },
           {
@@ -127,13 +127,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "route.md",
+                "file": "chapter0 基本概念/图形化.md",
                 "followCursor": true,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "route 的大纲"
+              "title": "图形化 的大纲"
             }
           },
           {
@@ -171,9 +171,10 @@
   },
   "active": "12b6ad5da5c0c02e",
   "lastOpenFiles": [
+    "chapter0 基本概念/概述.md",
+    "chapter0 基本概念/图形化.md",
     "chapter0 基本概念/Basic concept.md",
     "route.md",
-    "chapter0 基本概念/图形化.md",
     "chapter0 基本概念"
   ]
 }
