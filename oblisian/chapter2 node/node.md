@@ -146,3 +146,25 @@ ros2 run demo_cpp_pkg cpp_node
 ``` 
 
 ros2启动会从 `install ` 文件夹下查找可执行文件
+
+## workspace
+
+```bash
+cofallen@cofallen-NucBox-M6:~/Code/ros2/cp2_node$ mkdir -p cp2_ws/src
+cofallen@cofallen-NucBox-M6:~/Code/ros2/cp2_node$ mv node/demo_cpp_pkg/ cp2_ws/src/
+cofallen@cofallen-NucBox-M6:~/Code/ros2/cp2_node/node$ rm -rf build/ log/ install/
+cofallen@cofallen-NucBox-M6:~/Code/ros2/cp2_node/cp2_ws/src$ cd ..
+cofallen@cofallen-NucBox-M6:~/Code/ros2/cp2_node/cp2_ws$ colcon build
+```
+
+设置依赖关系/指定构建
+
+```bash
+cofallen@cofallen-NucBox-M6:~/Code/ros2/cp2_node/cp2_ws$ colcon build 
+--packages-select demo_cpp_pkg
+
+# 若cpp为py的依赖项
+# 在 py 下的 package.xml 中增加
+  <depend>demo_cpp_pkg</depend>
+
+```
