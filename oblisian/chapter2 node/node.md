@@ -56,3 +56,93 @@ ros2 run demo_python_pkg python_node
 # 因此每次修改代码后需要
 colcon build
 ```
+
+# c++
+
+```bash
+ ros2 pkg create --build-type ament_cmake --license Apache-2.0 demo_cpp_pkg
+
+ cofallen@cofallen-NucBox-M6:~/Code/ros2/cp2_node/node/demo_cpp_pkg$ mkdir build && cd build
+cofallen@cofallen-NucBox-M6:~/Code/ros2/cp2_node/node/demo_cpp_pkg/build$ cmake ..
+```
+
+`cmakelists.txt` 增加如下关系
+
+```bash
+# find dependencies
+find_package(ament_cmake REQUIRED)
+
+# Find the required ROS 2 packages
+find_package(rclcpp REQUIRED)
+# uncomment the following section in order to fill in
+# further dependencies manually.
+# find_package(<dependency> REQUIRED)
+
+add_executable(cpp_node src/cpp_node.cpp)
+
+# 包含连接
+# target_include_directories(cpp_node 
+#   PUBLIC ${rclcpp_INCLUDE_DIRS} )
+# target_link_libraries(cpp_node 
+#   ${rclcpp_LIBRARIES} )
+ament_target_dependencies(cpp_node rclcpp) # 等效上面两个
+
+install(TARGETS cpp_node
+ DESTINATION lib/${PROJECT_NAME}
+)
+```
+
+注意，
+
+```bash
+ament_package()
+
+# 应位于最后，表示 ament 命令结束，即该命令后面不应该有表达式
+```
+
+构建路径 应位于包的同级目录/上一级目录
+```bash
+colcon build
+
+# 可执行文件目录
+cofallen@cofallen-NucBox-M6:~/Code/ros2/cp2_node/node/build/demo_cpp_pkg$ ./cpp_node 
+
+# 查看二进制文件连接情况
+cofallen@cofallen-NucBox-M6:~/Code/ros2/cp2_node/node/build/demo_cpp_pkg$ ldd cpp_node 
+```
+
+## 一些报错
+
+```bash
+# 原因：环境变量未增加
+cofallen@cofallen-NucBox-M6:~/Code/ros2/cp2_node$ ros2 run demo_cpp_pkg cpp_node
+Package 'demo_cpp_pkg' not found
+cofallen@cofallen-NucBox-M6:~/Code/ros2/cp2_node$ printenv | grep -i ament
+AMENT_PREFIX_PATH=/opt/ros/humble
+# 解决
+cofallen@cofallen-NucBox-M6:~/Code/ros2/cp2_node/node$ source install/setup.bash 
+# 结果
+cofallen@cofallen-NucBox-M6:~/Code/ros2/cp2_node/node$ printenv | grep -i ament
+AMENT_PREFIX_PATH=/home/cofallen/Code/ros2/cp2_node/node/install/demo_cpp_pkg:/home/cofallen/Code/ros2/cp2_node/py/install/demo_python_pkg:/opt/ros/humble
+```
+
+
+```bash
+# 
+cofallen@cofallen-NucBox-M6:~/Code/ros2/cp2_node/node$ ros2 run demo_cpp_pkg cpp_node
+No executable found
+# 打印包路径
+cofallen@cofallen-NucBox-M6:~/Code/ros2/cp2_node/node$ ros2 pkg prefix demo_cpp_pkg
+/home/cofallen/Code/ros2/cp2_node/node/install/demo_cpp_pkg
+# 发现未把二进制文件拷贝到.../lib下
+cofallen@cofallen-NucBox-M6:~/Code/ros2/cp2_node/node/install/demo_cpp_pkg$ ls
+share
+# 在 cmake中增加
+install(TARGETS cpp_node
+ DESTINATION lib/${PROJECT_NAME}
+)
+# 启动
+ros2 run demo_cpp_pkg cpp_node 
+``` 
+
+ros2启动会从 `install ` 文件夹下查找可执行文件
