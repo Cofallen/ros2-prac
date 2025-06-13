@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "chapter0 基本概念/图形化.md",
+                "file": "chapter2 node/node.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "图形化"
+              "title": "node"
             }
           }
         ]
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "chapter0 基本概念/图形化.md",
+                "file": "chapter2 node/node.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "图形化 的反向链接列表"
+              "title": "node 的反向链接列表"
             }
           },
           {
@@ -113,12 +113,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "chapter0 基本概念/图形化.md",
+                "file": "chapter2 node/node.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "图形化 的出链列表"
+              "title": "node 的出链列表"
             }
           },
           {
@@ -127,13 +127,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "chapter0 基本概念/图形化.md",
+                "file": "chapter2 node/node.md",
                 "followCursor": true,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "图形化 的大纲"
+              "title": "node 的大纲"
             }
           },
           {
@@ -171,10 +171,13 @@
   },
   "active": "12b6ad5da5c0c02e",
   "lastOpenFiles": [
+    "route.md",
+    "chapter2 node/node.md",
     "chapter0 基本概念/概述.md",
     "chapter0 基本概念/图形化.md",
     "chapter0 基本概念/Basic concept.md",
-    "route.md",
+    "未命名.md",
+    "chapter2 node",
     "chapter0 基本概念"
   ]
 }
