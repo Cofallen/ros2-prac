@@ -1,5 +1,4 @@
 import rclpy
-import rclpy.logging
 from rclpy.node import Node
 
 from demo_python_pkg.person_node import PersonNode

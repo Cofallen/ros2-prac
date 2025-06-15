@@ -15,15 +15,19 @@ find_package(rclcpp REQUIRED)
 # find_package(<dependency> REQUIRED)
 
 add_executable(cpp_node src/cpp_node.cpp)
-
+add_executable(person_node src/person_node.cpp)
 # 包含连接
 # target_include_directories(cpp_node 
 #   PUBLIC ${rclcpp_INCLUDE_DIRS} )
 # target_link_libraries(cpp_node 
 #   ${rclcpp_LIBRARIES} )
 ament_target_dependencies(cpp_node rclcpp) # 等效上面两个
+ament_target_dependencies(person_node rclcpp) 
 
 install(TARGETS cpp_node
+ DESTINATION lib/${PROJECT_NAME}
+)
+install(TARGETS person_node
  DESTINATION lib/${PROJECT_NAME}
 )
 
