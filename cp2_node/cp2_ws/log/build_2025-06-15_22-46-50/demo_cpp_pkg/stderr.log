@@ -1,0 +1,6 @@
+/usr/bin/ld: CMakeFiles/learn_functional.dir/src/learn_functional.cpp.o: in function `main':
+learn_functional.cpp:(.text+0x1bf): undefined reference to `FileSave::FileSave()'
+collect2: error: ld returned 1 exit status
+gmake[2]: *** [CMakeFiles/learn_functional.dir/build.make:151: learn_functional] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:277: CMakeFiles/learn_functional.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

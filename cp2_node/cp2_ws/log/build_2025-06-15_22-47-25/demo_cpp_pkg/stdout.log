@@ -1,0 +1,8 @@
+[35m[1mConsolidate compiler generated dependencies of target learn_functional[0m
+[ 58%] Built target learn_shared_ptr
+[ 58%] [32mBuilding CXX object CMakeFiles/learn_functional.dir/src/learn_functional.cpp.o[0m
+[ 58%] Built target person_node
+[ 58%] Built target learn_lambda
+[ 91%] Built target cpp_node
+[ 91%] Built target learn_auto
+[100%] [32m[1mLinking CXX executable learn_functional[0m

@@ -1,0 +1,42 @@
+[0.010s] Invoking command in '/home/cofallen/Code/ros2/cp2_node/cp2_ws/build/demo_cpp_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/cofallen/Code/ros2/cp2_node/cp2_ws/install/demo_python_pkg:/opt/ros/humble /usr/bin/cmake --build /home/cofallen/Code/ros2/cp2_node/cp2_ws/build/demo_cpp_pkg -- -j12 -l12
+[0.030s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.122s] -- Found rclcpp: 16.0.12 (/opt/ros/humble/share/rclcpp/cmake)
+[0.142s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.144s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.148s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.154s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.162s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.183s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.184s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.271s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.309s] -- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.364s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.364s] -- Configured cppcheck include dirs: 
+[0.364s] -- Configured cppcheck exclude dirs and/or files: 
+[0.366s] -- Added test 'lint_cmake' to check CMake code style
+[0.372s] -- Added test 'uncrustify' to check C / C++ code style
+[0.372s] -- Configured uncrustify additional arguments: 
+[0.372s] -- Added test 'xmllint' to check XML markup files
+[0.373s] -- Configuring done
+[0.388s] -- Generating done
+[0.394s] -- Build files have been written to: /home/cofallen/Code/ros2/cp2_node/cp2_ws/build/demo_cpp_pkg
+[0.417s] [35m[1mConsolidate compiler generated dependencies of target learn_shared_ptr[0m
+[0.417s] [35m[1mConsolidate compiler generated dependencies of target learn_lambda[0m
+[0.417s] [35m[1mConsolidate compiler generated dependencies of target learn_functional[0m
+[0.417s] [35m[1mConsolidate compiler generated dependencies of target cpp_node[0m
+[0.417s] [35m[1mConsolidate compiler generated dependencies of target learn_auto[0m
+[0.417s] [35m[1mConsolidate compiler generated dependencies of target person_node[0m
+[0.428s] [ 33%] Built target learn_lambda
+[0.428s] [ 33%] Built target learn_shared_ptr
+[0.428s] [ 41%] [32mBuilding CXX object CMakeFiles/learn_functional.dir/src/learn_functional.cpp.o[0m
+[0.432s] [ 58%] Built target cpp_node
+[0.433s] [ 75%] Built target learn_auto
+[0.433s] [ 91%] Built target person_node
+[0.760s] [100%] [32m[1mLinking CXX executable learn_functional[0m
+[0.812s] /usr/bin/ld: CMakeFiles/learn_functional.dir/src/learn_functional.cpp.o: in function `main':
+[0.812s] learn_functional.cpp:(.text+0x1bf): undefined reference to `FileSave::FileSave()'
+[0.815s] collect2: error: ld returned 1 exit status
+[0.817s] gmake[2]: *** [CMakeFiles/learn_functional.dir/build.make:97: learn_functional] Error 1
+[0.818s] gmake[1]: *** [CMakeFiles/Makefile2:277: CMakeFiles/learn_functional.dir/all] Error 2
+[0.818s] gmake: *** [Makefile:146: all] Error 2
+[0.821s] Invoked command in '/home/cofallen/Code/ros2/cp2_node/cp2_ws/build/demo_cpp_pkg' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/cofallen/Code/ros2/cp2_node/cp2_ws/install/demo_python_pkg:/opt/ros/humble /usr/bin/cmake --build /home/cofallen/Code/ros2/cp2_node/cp2_ws/build/demo_cpp_pkg -- -j12 -l12

@@ -1,0 +1,14 @@
+[35m[1mConsolidate compiler generated dependencies of target learn_functional[0m
+[ 58%] Built target learn_shared_ptr
+[ 58%] [32mBuilding CXX object CMakeFiles/learn_functional.dir/src/learn_functional.cpp.o[0m
+[ 58%] Built target person_node
+[ 58%] Built target learn_lambda
+[ 91%] Built target cpp_node
+[ 91%] Built target learn_auto
+[100%] [32m[1mLinking CXX executable learn_functional[0m
+/usr/bin/ld: CMakeFiles/learn_functional.dir/src/learn_functional.cpp.o: in function `main':
+learn_functional.cpp:(.text+0x1bf): undefined reference to `FileSave::FileSave()'
+collect2: error: ld returned 1 exit status
+gmake[2]: *** [CMakeFiles/learn_functional.dir/build.make:151: learn_functional] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:277: CMakeFiles/learn_functional.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

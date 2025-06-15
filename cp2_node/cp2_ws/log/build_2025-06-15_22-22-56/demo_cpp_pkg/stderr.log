@@ -1,0 +1,10 @@
+[01m[K/home/cofallen/Code/ros2/cp2_node/cp2_ws/src/demo_cpp_pkg/src/learn_lambda.cpp:[m[K In function ‘[01m[Kint main(int, const char**)[m[K’:
+[01m[K/home/cofallen/Code/ros2/cp2_node/cp2_ws/src/demo_cpp_pkg/src/learn_lambda.cpp:8:10:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[Kprint_sum[m[K’ set but not used [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-but-set-variable-Wunused-but-set-variable]8;;[m[K]
+    8 |     auto [01;35m[Kprint_sum[m[K = [sum]() -> void {
+      |          [01;35m[K^~~~~~~~~[m[K
+[01m[K/home/cofallen/Code/ros2/cp2_node/cp2_ws/src/demo_cpp_pkg/src/learn_lambda.cpp:4:14:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kargc[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+    4 | int main([01;35m[Kint argc[m[K, char const *argv[])
+      |          [01;35m[K~~~~^~~~[m[K
+[01m[K/home/cofallen/Code/ros2/cp2_node/cp2_ws/src/demo_cpp_pkg/src/learn_lambda.cpp:4:32:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kargv[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+    4 | int main(int argc, [01;35m[Kchar const *argv[][m[K)
+      |                    [01;35m[K~~~~~~~~~~~~^~~~~~[m[K
