@@ -168,3 +168,22 @@ cofallen@cofallen-NucBox-M6:~/Code/ros2/cp2_node/cp2_ws$ colcon build
   <depend>demo_cpp_pkg</depend>
 
 ```
+
+## 多进程
+
+这里我使用shell脚本创建多文件 
+
+```shell
+for i in {0..2}; do
+  echo "chapter $i: xxx" > "novel$i.txt"
+done
+# 或者
+for ((i=0; i<3; i++)); do
+  echo "chapter $i: xxx" > "novel$i.txt"
+done
+```
+
+```bash
+# 在当前目录下，将所有文件上传作为网盘网页
+python -m http.server 
+```
