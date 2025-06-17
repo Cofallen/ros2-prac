@@ -42,6 +42,18 @@ ros2 topic echo /turtle1/pose
 # 查看话题消息类型
 ros2 topic info /turtle1/cmd_vel
 
+ros2 interface show geometry_msgs/msg/Twist
+# This expresses velocity in free space broken into its linear and angular parts.
+
+Vector3  linear
+	float64 x
+	float64 y
+	float64 z
+Vector3  angular
+	float64 x
+	float64 y
+	float64 z
+
 # 手动发布移动指令（线速度2.0，角速度1.0）
 ros2 topic pub -r 1 /turtle1/cmd_vel geometry_msgs/msg/Twist \
   "{linear: {x: 2.0, y: 0.0, z: 0.0}, angular: {x: 0.0, y: 0.0, z: 1.0}}"
