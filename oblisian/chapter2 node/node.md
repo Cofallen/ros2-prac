@@ -187,3 +187,10 @@ done
 # 在当前目录下，将所有文件上传作为网盘网页
 python -m http.server 
 ```
+
+```bash
+# c++ 使用第三方库
+git clone https://gitee.com/ohhuo/cpp-httplib.git
+# cmakelist 增加
+include_directories(include)
+```

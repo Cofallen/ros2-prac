@@ -12,7 +12,8 @@
 		[
 			"add_executable",
 			"install",
-			"add_compile_options"
+			"add_compile_options",
+			"include_directories"
 		],
 		"files" : 
 		[
@@ -26,19 +27,25 @@
 			{
 				"command" : 0,
 				"file" : 0,
-				"line" : 22,
+				"line" : 24,
 				"parent" : 0
 			},
 			{
 				"command" : 1,
 				"file" : 0,
-				"line" : 35,
+				"line" : 41,
 				"parent" : 0
 			},
 			{
 				"command" : 2,
 				"file" : 0,
-				"line" : 5,
+				"line" : 8,
+				"parent" : 0
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 17,
 				"parent" : 0
 			}
 		]
@@ -59,6 +66,13 @@
 				{
 					"backtrace" : 3,
 					"fragment" : "-Wpedantic"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 4,
+					"path" : "/home/cofallen/Code/ros2/cp2_node/cp2_ws/src/demo_cpp_pkg/include"
 				}
 			],
 			"language" : "CXX",

@@ -36,13 +36,13 @@
 			{
 				"command" : 0,
 				"file" : 0,
-				"line" : 35,
+				"line" : 41,
 				"parent" : 0
 			},
 			{
 				"command" : 5,
 				"file" : 0,
-				"line" : 51,
+				"line" : 58,
 				"parent" : 0
 			},
 			{
@@ -229,22 +229,10 @@
 			"destination" : "lib/demo_cpp_pkg",
 			"paths" : 
 			[
-				"cpp_node"
-			],
-			"targetId" : "cpp_node::@6890427a1f51a3e7e1df",
-			"targetIndex" : 0,
-			"type" : "target"
-		},
-		{
-			"backtrace" : 1,
-			"component" : "Unspecified",
-			"destination" : "lib/demo_cpp_pkg",
-			"paths" : 
-			[
 				"person_node"
 			],
 			"targetId" : "person_node::@6890427a1f51a3e7e1df",
-			"targetIndex" : 6,
+			"targetIndex" : 7,
 			"type" : "target"
 		},
 		{
@@ -293,6 +281,18 @@
 			],
 			"targetId" : "learn_functional::@6890427a1f51a3e7e1df",
 			"targetIndex" : 3,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "lib/demo_cpp_pkg",
+			"paths" : 
+			[
+				"learn_thread"
+			],
+			"targetId" : "learn_thread::@6890427a1f51a3e7e1df",
+			"targetIndex" : 6,
 			"type" : "target"
 		},
 		{

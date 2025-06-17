@@ -7,7 +7,7 @@
 				{
 					"build" : ".",
 					"hasInstallRule" : true,
-					"jsonFile" : "directory-.-86fd8cf9c2278dee37ec.json",
+					"jsonFile" : "directory-.-76f91ec651115f59e947.json",
 					"minimumCMakeVersion" : 
 					{
 						"string" : "3.12"
@@ -23,7 +23,8 @@
 						4,
 						5,
 						6,
-						7
+						7,
+						8
 					]
 				}
 			],
@@ -45,7 +46,8 @@
 						4,
 						5,
 						6,
-						7
+						7,
+						8
 					]
 				}
 			],
@@ -54,56 +56,63 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "cpp_node::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-cpp_node-f4d0ae44018e371bcdae.json",
+					"jsonFile" : "target-cpp_node-cb187eccad87a220ceea.json",
 					"name" : "cpp_node",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 0,
 					"id" : "demo_cpp_pkg_uninstall::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-demo_cpp_pkg_uninstall-1934537a0dcd5eaf0cb5.json",
+					"jsonFile" : "target-demo_cpp_pkg_uninstall-89041393cbb1722ef95f.json",
 					"name" : "demo_cpp_pkg_uninstall",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 0,
 					"id" : "learn_auto::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-learn_auto-9720c65f61a6a55821b8.json",
+					"jsonFile" : "target-learn_auto-3f52b0d5939c3d48f60e.json",
 					"name" : "learn_auto",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 0,
 					"id" : "learn_functional::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-learn_functional-a2c44050550e5481963d.json",
+					"jsonFile" : "target-learn_functional-696280607627d5650d18.json",
 					"name" : "learn_functional",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 0,
 					"id" : "learn_lambda::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-learn_lambda-c6803d400e50d0386301.json",
+					"jsonFile" : "target-learn_lambda-23f4a7655d5caf90ca07.json",
 					"name" : "learn_lambda",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 0,
 					"id" : "learn_shared_ptr::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-learn_shared_ptr-3385f936438fc3c70e35.json",
+					"jsonFile" : "target-learn_shared_ptr-172fa4e92f87df2f05cd.json",
 					"name" : "learn_shared_ptr",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 0,
+					"id" : "learn_thread::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-learn_thread-0444bff38da84b568cd7.json",
+					"name" : "learn_thread",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
 					"id" : "person_node::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-person_node-b2ad148835152e5d0b5c.json",
+					"jsonFile" : "target-person_node-b1a0451782070d249082.json",
 					"name" : "person_node",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 0,
 					"id" : "uninstall::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-uninstall-783a3ba734a436ef5df4.json",
+					"jsonFile" : "target-uninstall-cf1549a54905d62b204a.json",
 					"name" : "uninstall",
 					"projectIndex" : 0
 				}
