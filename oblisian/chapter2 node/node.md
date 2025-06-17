@@ -194,3 +194,53 @@ git clone https://gitee.com/ohhuo/cpp-httplib.git
 # cmakelist 增加
 include_directories(include)
 ```
+
+注意，使用第三方库`cpp-httplib ` 出现的问题。
+
+1. 无法连接服务器。
+   这里我加入了错误排查。
+  ```c++
+  void download(const std::string &host, const std::string &path, const std::function<void(const std::string &, const std::string&)> &callback_word_count) {
+        std::cout << "thread id: " << std::this_thread::get_id() << std::endl;
+
+        try
+        {
+            httplib::Client client(host);
+            client.set_connection_timeout(5);
+            client.set_read_timeout(5);
+            
+            auto response = client.Get(path);
+
+            if (response)
+            {
+                std::cout << "status id: " << response->status << std::endl;
+                if (response->status == 200)
+                {
+                    callback_word_count(path,response->body);
+                } else {
+                    std::cerr << "http请求错误" <<  response->status <<std::endl;
+                }
+            } else {
+                std::cerr << "无法连接到服务器" << std::endl;
+            }
+            
+        }
+        catch(const std::exception& e)
+        {
+            std::cerr << e.what() << '\n';
+        }
+        
+    };
+  ```
+实际输出为 `无法连接到服务器`。
+
+原因：当使用 cpp-httplib 库时，主机名应该不包含协议前缀(http://)和尾部斜杠。
+
+解决方案
+修改 main 函数中的 start_download 调用方式。
+
+2. 如果没有打开网页，可以查看监听端口。
+
+```bash
+netstat -tuln | grep 8000
+```
