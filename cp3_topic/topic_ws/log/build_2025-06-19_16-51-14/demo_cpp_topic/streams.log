@@ -1,0 +1,25 @@
+[0.012s] Invoking command in '/home/cofallen/Code/ros2/cp3_topic/topic_ws/build/demo_cpp_topic': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/cofallen/Code/ros2/cp3_topic/topic_ws/build/demo_cpp_topic -- -j12 -l12
+[0.061s] [ 50%] [32mBuilding CXX object CMakeFiles/turtle_circle.dir/src/turtle_circle.cpp.o[0m
+[3.309s] [100%] [32m[1mLinking CXX executable turtle_circle[0m
+[3.474s] [100%] Built target turtle_circle
+[3.483s] Invoked command in '/home/cofallen/Code/ros2/cp3_topic/topic_ws/build/demo_cpp_topic' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/cofallen/Code/ros2/cp3_topic/topic_ws/build/demo_cpp_topic -- -j12 -l12
+[3.493s] Invoking command in '/home/cofallen/Code/ros2/cp3_topic/topic_ws/build/demo_cpp_topic': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/cofallen/Code/ros2/cp3_topic/topic_ws/build/demo_cpp_topic
+[3.501s] -- Install configuration: ""
+[3.501s] -- Installing: /home/cofallen/Code/ros2/cp3_topic/topic_ws/install/demo_cpp_topic/lib/demo_cpp_topic/turtle_circle
+[3.502s] -- Set runtime path of "/home/cofallen/Code/ros2/cp3_topic/topic_ws/install/demo_cpp_topic/lib/demo_cpp_topic/turtle_circle" to ""
+[3.502s] -- Installing: /home/cofallen/Code/ros2/cp3_topic/topic_ws/install/demo_cpp_topic/share/ament_index/resource_index/package_run_dependencies/demo_cpp_topic
+[3.502s] -- Installing: /home/cofallen/Code/ros2/cp3_topic/topic_ws/install/demo_cpp_topic/share/ament_index/resource_index/parent_prefix_path/demo_cpp_topic
+[3.503s] -- Installing: /home/cofallen/Code/ros2/cp3_topic/topic_ws/install/demo_cpp_topic/share/demo_cpp_topic/environment/ament_prefix_path.sh
+[3.503s] -- Installing: /home/cofallen/Code/ros2/cp3_topic/topic_ws/install/demo_cpp_topic/share/demo_cpp_topic/environment/ament_prefix_path.dsv
+[3.503s] -- Installing: /home/cofallen/Code/ros2/cp3_topic/topic_ws/install/demo_cpp_topic/share/demo_cpp_topic/environment/path.sh
+[3.503s] -- Installing: /home/cofallen/Code/ros2/cp3_topic/topic_ws/install/demo_cpp_topic/share/demo_cpp_topic/environment/path.dsv
+[3.503s] -- Installing: /home/cofallen/Code/ros2/cp3_topic/topic_ws/install/demo_cpp_topic/share/demo_cpp_topic/local_setup.bash
+[3.503s] -- Installing: /home/cofallen/Code/ros2/cp3_topic/topic_ws/install/demo_cpp_topic/share/demo_cpp_topic/local_setup.sh
+[3.503s] -- Installing: /home/cofallen/Code/ros2/cp3_topic/topic_ws/install/demo_cpp_topic/share/demo_cpp_topic/local_setup.zsh
+[3.504s] -- Installing: /home/cofallen/Code/ros2/cp3_topic/topic_ws/install/demo_cpp_topic/share/demo_cpp_topic/local_setup.dsv
+[3.504s] -- Up-to-date: /home/cofallen/Code/ros2/cp3_topic/topic_ws/install/demo_cpp_topic/share/demo_cpp_topic/package.dsv
+[3.504s] -- Installing: /home/cofallen/Code/ros2/cp3_topic/topic_ws/install/demo_cpp_topic/share/ament_index/resource_index/packages/demo_cpp_topic
+[3.504s] -- Installing: /home/cofallen/Code/ros2/cp3_topic/topic_ws/install/demo_cpp_topic/share/demo_cpp_topic/cmake/demo_cpp_topicConfig.cmake
+[3.504s] -- Installing: /home/cofallen/Code/ros2/cp3_topic/topic_ws/install/demo_cpp_topic/share/demo_cpp_topic/cmake/demo_cpp_topicConfig-version.cmake
+[3.504s] -- Installing: /home/cofallen/Code/ros2/cp3_topic/topic_ws/install/demo_cpp_topic/share/demo_cpp_topic/package.xml
+[3.506s] Invoked command in '/home/cofallen/Code/ros2/cp3_topic/topic_ws/build/demo_cpp_topic' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/cofallen/Code/ros2/cp3_topic/topic_ws/build/demo_cpp_topic

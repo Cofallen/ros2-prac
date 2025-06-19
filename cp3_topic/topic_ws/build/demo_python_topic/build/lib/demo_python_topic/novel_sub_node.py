@@ -21,7 +21,7 @@ class NovelSubNode(Node):
         
     def speaker_thread(self):
         speaker = espeakng.Speaker()
-        speaker.voice = 'en'
+        speaker.voice = 'zh'
         
         while rclpy.ok(): # 检查当前上下文ROS 是否 OK
             if self.novels_queue_.qsize() > 0:
