@@ -8,7 +8,7 @@ class TurtleCircleNode: public rclcpp::Node
 {
 private:
 rclcpp::TimerBase::SharedPtr timer_;
-    rclcpp::Publisher<geometry_msgs::msg::Twist>::SharedPtr publisher_; // 发布者的只能指针
+    rclcpp::Publisher<geometry_msgs::msg::Twist>::SharedPtr publisher_; // 发布者的智能指针
 public:
     explicit TurtleCircleNode(const std::string &node_name);  // ex.. 防止单参数进行隐式转换 TurtleCircleNode t = "xx";
     ~TurtleCircleNode();
