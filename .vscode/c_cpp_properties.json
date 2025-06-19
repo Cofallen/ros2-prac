@@ -4,7 +4,8 @@
             "name": "Linux",
             "includePath": [
                 "${workspaceFolder}/**",
-                "${AMENT_PREFIX_PATH}/include/**"
+                "${AMENT_PREFIX_PATH}/include/**",
+                "/opt/ros/humble/include/geometry_msgs"
             ],
             "defines": [],
             "compilerPath": "/usr/bin/gcc",

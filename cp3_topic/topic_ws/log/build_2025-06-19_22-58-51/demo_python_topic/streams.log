@@ -1,0 +1,23 @@
+[0.505s] Invoking command in '/home/cofallen/Code/ros2/cp3_topic/topic_ws/src/demo_python_topic': PYTHONPATH=/home/cofallen/Code/ros2/cp3_topic/topic_ws/build/demo_python_topic/prefix_override:/home/cofallen/.local/lib/python3.10/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/cofallen/Code/ros2/cp3_topic/topic_ws/install/demo_python_topic/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/demo_python_topic build --build-base /home/cofallen/Code/ros2/cp3_topic/topic_ws/build/demo_python_topic/build install --record /home/cofallen/Code/ros2/cp3_topic/topic_ws/build/demo_python_topic/install.log --single-version-externally-managed install_data
+[0.692s] running egg_info
+[0.693s] writing ../../build/demo_python_topic/demo_python_topic.egg-info/PKG-INFO
+[0.694s] writing dependency_links to ../../build/demo_python_topic/demo_python_topic.egg-info/dependency_links.txt
+[0.694s] writing entry points to ../../build/demo_python_topic/demo_python_topic.egg-info/entry_points.txt
+[0.694s] writing requirements to ../../build/demo_python_topic/demo_python_topic.egg-info/requires.txt
+[0.694s] writing top-level names to ../../build/demo_python_topic/demo_python_topic.egg-info/top_level.txt
+[0.695s] reading manifest file '../../build/demo_python_topic/demo_python_topic.egg-info/SOURCES.txt'
+[0.695s] adding license file 'LICENSE'
+[0.696s] writing manifest file '../../build/demo_python_topic/demo_python_topic.egg-info/SOURCES.txt'
+[0.696s] running build
+[0.696s] running build_py
+[0.697s] running install
+[0.697s] running install_lib
+[0.698s] running install_data
+[0.698s] running install_egg_info
+[0.700s] removing '/home/cofallen/Code/ros2/cp3_topic/topic_ws/install/demo_python_topic/lib/python3.10/site-packages/demo_python_topic-0.0.0-py3.10.egg-info' (and everything under it)
+[0.701s] Copying ../../build/demo_python_topic/demo_python_topic.egg-info to /home/cofallen/Code/ros2/cp3_topic/topic_ws/install/demo_python_topic/lib/python3.10/site-packages/demo_python_topic-0.0.0-py3.10.egg-info
+[0.702s] running install_scripts
+[0.724s] Installing novel_pub_node script to /home/cofallen/Code/ros2/cp3_topic/topic_ws/install/demo_python_topic/lib/demo_python_topic
+[0.725s] Installing novel_sub_node script to /home/cofallen/Code/ros2/cp3_topic/topic_ws/install/demo_python_topic/lib/demo_python_topic
+[0.725s] writing list of installed files to '/home/cofallen/Code/ros2/cp3_topic/topic_ws/build/demo_python_topic/install.log'
+[0.765s] Invoked command in '/home/cofallen/Code/ros2/cp3_topic/topic_ws/src/demo_python_topic' returned '0': PYTHONPATH=/home/cofallen/Code/ros2/cp3_topic/topic_ws/build/demo_python_topic/prefix_override:/home/cofallen/.local/lib/python3.10/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/cofallen/Code/ros2/cp3_topic/topic_ws/install/demo_python_topic/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/demo_python_topic build --build-base /home/cofallen/Code/ros2/cp3_topic/topic_ws/build/demo_python_topic/build install --record /home/cofallen/Code/ros2/cp3_topic/topic_ws/build/demo_python_topic/install.log --single-version-externally-managed install_data
