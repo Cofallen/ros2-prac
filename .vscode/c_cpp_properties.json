@@ -6,7 +6,10 @@
                 "${workspaceFolder}/**",
                 "${AMENT_PREFIX_PATH}/include/**",
                 "/opt/ros/humble/include/geometry_msgs",
-                "${workspaceFolder}/cp3_topic/topic_practice_ws/install/status_interfaces/include/status_interfaces"
+                "${workspaceFolder}/cp3_topic/topic_practice_ws/install/status_interfaces/include/status_interfaces",
+                "/usr/include/x86_64-linux-gnu/qt5/QtWidgets",
+                "/usr/include/x86_64-linux-gnu/qt5/QtCore",
+                "/usr/include/x86_64-linux-gnu/qt5"
             ],
             "defines": [],
             "compilerPath": "/usr/bin/gcc",

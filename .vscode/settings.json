@@ -80,6 +80,9 @@
         "netfwd": "cpp",
         "regex": "cpp",
         "socket": "cpp",
-        "timer": "cpp"
+        "timer": "cpp",
+        "qapplication": "cpp",
+        "qlabel": "cpp",
+        "qstring": "cpp"
     }
 }
