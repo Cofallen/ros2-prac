@@ -20,6 +20,7 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
+            'sys_status_pub=status_publisher.sys_status_pub:main',
         ],
     },
 )

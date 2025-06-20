@@ -53,15 +53,15 @@ private:
   ::status_interfaces::msg::SystemStatus msg_;
 };
 
-class Init_SystemStatus_meomery_available
+class Init_SystemStatus_memory_available
 {
 public:
-  explicit Init_SystemStatus_meomery_available(::status_interfaces::msg::SystemStatus & msg)
+  explicit Init_SystemStatus_memory_available(::status_interfaces::msg::SystemStatus & msg)
   : msg_(msg)
   {}
-  Init_SystemStatus_net_sent meomery_available(::status_interfaces::msg::SystemStatus::_meomery_available_type arg)
+  Init_SystemStatus_net_sent memory_available(::status_interfaces::msg::SystemStatus::_memory_available_type arg)
   {
-    msg_.meomery_available = std::move(arg);
+    msg_.memory_available = std::move(arg);
     return Init_SystemStatus_net_sent(msg_);
   }
 
@@ -69,32 +69,32 @@ private:
   ::status_interfaces::msg::SystemStatus msg_;
 };
 
-class Init_SystemStatus_meomery_total
+class Init_SystemStatus_memory_total
 {
 public:
-  explicit Init_SystemStatus_meomery_total(::status_interfaces::msg::SystemStatus & msg)
+  explicit Init_SystemStatus_memory_total(::status_interfaces::msg::SystemStatus & msg)
   : msg_(msg)
   {}
-  Init_SystemStatus_meomery_available meomery_total(::status_interfaces::msg::SystemStatus::_meomery_total_type arg)
+  Init_SystemStatus_memory_available memory_total(::status_interfaces::msg::SystemStatus::_memory_total_type arg)
   {
-    msg_.meomery_total = std::move(arg);
-    return Init_SystemStatus_meomery_available(msg_);
+    msg_.memory_total = std::move(arg);
+    return Init_SystemStatus_memory_available(msg_);
   }
 
 private:
   ::status_interfaces::msg::SystemStatus msg_;
 };
 
-class Init_SystemStatus_meomery_percent
+class Init_SystemStatus_memory_percent
 {
 public:
-  explicit Init_SystemStatus_meomery_percent(::status_interfaces::msg::SystemStatus & msg)
+  explicit Init_SystemStatus_memory_percent(::status_interfaces::msg::SystemStatus & msg)
   : msg_(msg)
   {}
-  Init_SystemStatus_meomery_total meomery_percent(::status_interfaces::msg::SystemStatus::_meomery_percent_type arg)
+  Init_SystemStatus_memory_total memory_percent(::status_interfaces::msg::SystemStatus::_memory_percent_type arg)
   {
-    msg_.meomery_percent = std::move(arg);
-    return Init_SystemStatus_meomery_total(msg_);
+    msg_.memory_percent = std::move(arg);
+    return Init_SystemStatus_memory_total(msg_);
   }
 
 private:
@@ -107,10 +107,10 @@ public:
   explicit Init_SystemStatus_cpu_percent(::status_interfaces::msg::SystemStatus & msg)
   : msg_(msg)
   {}
-  Init_SystemStatus_meomery_percent cpu_percent(::status_interfaces::msg::SystemStatus::_cpu_percent_type arg)
+  Init_SystemStatus_memory_percent cpu_percent(::status_interfaces::msg::SystemStatus::_cpu_percent_type arg)
   {
     msg_.cpu_percent = std::move(arg);
-    return Init_SystemStatus_meomery_percent(msg_);
+    return Init_SystemStatus_memory_percent(msg_);
   }
 
 private:

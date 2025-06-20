@@ -1,0 +1,5 @@
+  File "/home/cofallen/Code/ros2/cp3_topic/topic_practice_ws/install/status_publisher/lib/python3.10/site-packages/status_publisher/sys_status_pub.py", line 26
+    msg.net_recv = net_io_counters.bytes_recv ? (1024*1024)
+                                              ^
+SyntaxError: invalid syntax
+

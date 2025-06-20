@@ -99,19 +99,19 @@ static bool _SystemStatus__cdr_serialize(
     cdr << ros_message->cpu_percent;
   }
 
-  // Field name: meomery_percent
+  // Field name: memory_percent
   {
-    cdr << ros_message->meomery_percent;
+    cdr << ros_message->memory_percent;
   }
 
-  // Field name: meomery_total
+  // Field name: memory_total
   {
-    cdr << ros_message->meomery_total;
+    cdr << ros_message->memory_total;
   }
 
-  // Field name: meomery_available
+  // Field name: memory_available
   {
-    cdr << ros_message->meomery_available;
+    cdr << ros_message->memory_available;
   }
 
   // Field name: net_sent
@@ -171,19 +171,19 @@ static bool _SystemStatus__cdr_deserialize(
     cdr >> ros_message->cpu_percent;
   }
 
-  // Field name: meomery_percent
+  // Field name: memory_percent
   {
-    cdr >> ros_message->meomery_percent;
+    cdr >> ros_message->memory_percent;
   }
 
-  // Field name: meomery_total
+  // Field name: memory_total
   {
-    cdr >> ros_message->meomery_total;
+    cdr >> ros_message->memory_total;
   }
 
-  // Field name: meomery_available
+  // Field name: memory_available
   {
-    cdr >> ros_message->meomery_available;
+    cdr >> ros_message->memory_available;
   }
 
   // Field name: net_sent
@@ -227,21 +227,21 @@ size_t get_serialized_size_status_interfaces__msg__SystemStatus(
     current_alignment += item_size +
       eprosima::fastcdr::Cdr::alignment(current_alignment, item_size);
   }
-  // field.name meomery_percent
+  // field.name memory_percent
   {
-    size_t item_size = sizeof(ros_message->meomery_percent);
+    size_t item_size = sizeof(ros_message->memory_percent);
     current_alignment += item_size +
       eprosima::fastcdr::Cdr::alignment(current_alignment, item_size);
   }
-  // field.name meomery_total
+  // field.name memory_total
   {
-    size_t item_size = sizeof(ros_message->meomery_total);
+    size_t item_size = sizeof(ros_message->memory_total);
     current_alignment += item_size +
       eprosima::fastcdr::Cdr::alignment(current_alignment, item_size);
   }
-  // field.name meomery_available
+  // field.name memory_available
   {
-    size_t item_size = sizeof(ros_message->meomery_available);
+    size_t item_size = sizeof(ros_message->memory_available);
     current_alignment += item_size +
       eprosima::fastcdr::Cdr::alignment(current_alignment, item_size);
   }
@@ -325,7 +325,7 @@ size_t max_serialized_size_status_interfaces__msg__SystemStatus(
     current_alignment += array_size * sizeof(uint32_t) +
       eprosima::fastcdr::Cdr::alignment(current_alignment, sizeof(uint32_t));
   }
-  // member: meomery_percent
+  // member: memory_percent
   {
     size_t array_size = 1;
 
@@ -333,7 +333,7 @@ size_t max_serialized_size_status_interfaces__msg__SystemStatus(
     current_alignment += array_size * sizeof(uint32_t) +
       eprosima::fastcdr::Cdr::alignment(current_alignment, sizeof(uint32_t));
   }
-  // member: meomery_total
+  // member: memory_total
   {
     size_t array_size = 1;
 
@@ -341,7 +341,7 @@ size_t max_serialized_size_status_interfaces__msg__SystemStatus(
     current_alignment += array_size * sizeof(uint32_t) +
       eprosima::fastcdr::Cdr::alignment(current_alignment, sizeof(uint32_t));
   }
-  // member: meomery_available
+  // member: memory_available
   {
     size_t array_size = 1;
 

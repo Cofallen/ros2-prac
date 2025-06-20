@@ -1,0 +1,37 @@
+[0.498s] Invoking command in '/home/cofallen/Code/ros2/cp3_topic/topic_practice_ws/src/status_publisher': PYTHONPATH=/home/cofallen/Code/ros2/cp3_topic/topic_practice_ws/build/status_publisher/prefix_override:/home/cofallen/.local/lib/python3.10/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/cofallen/Code/ros2/cp3_topic/topic_practice_ws/install/status_publisher/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/status_publisher build --build-base /home/cofallen/Code/ros2/cp3_topic/topic_practice_ws/build/status_publisher/build install --record /home/cofallen/Code/ros2/cp3_topic/topic_practice_ws/build/status_publisher/install.log --single-version-externally-managed install_data
+[0.661s] running egg_info
+[0.661s] creating ../../build/status_publisher/status_publisher.egg-info
+[0.661s] writing ../../build/status_publisher/status_publisher.egg-info/PKG-INFO
+[0.661s] writing dependency_links to ../../build/status_publisher/status_publisher.egg-info/dependency_links.txt
+[0.661s] writing entry points to ../../build/status_publisher/status_publisher.egg-info/entry_points.txt
+[0.661s] writing requirements to ../../build/status_publisher/status_publisher.egg-info/requires.txt
+[0.661s] writing top-level names to ../../build/status_publisher/status_publisher.egg-info/top_level.txt
+[0.661s] writing manifest file '../../build/status_publisher/status_publisher.egg-info/SOURCES.txt'
+[0.662s] reading manifest file '../../build/status_publisher/status_publisher.egg-info/SOURCES.txt'
+[0.662s] adding license file 'LICENSE'
+[0.663s] writing manifest file '../../build/status_publisher/status_publisher.egg-info/SOURCES.txt'
+[0.663s] running build
+[0.663s] running build_py
+[0.663s] creating /home/cofallen/Code/ros2/cp3_topic/topic_practice_ws/build/status_publisher/build
+[0.663s] creating /home/cofallen/Code/ros2/cp3_topic/topic_practice_ws/build/status_publisher/build/lib
+[0.663s] creating /home/cofallen/Code/ros2/cp3_topic/topic_practice_ws/build/status_publisher/build/lib/status_publisher
+[0.663s] copying status_publisher/sys_status_pub.py -> /home/cofallen/Code/ros2/cp3_topic/topic_practice_ws/build/status_publisher/build/lib/status_publisher
+[0.663s] copying status_publisher/__init__.py -> /home/cofallen/Code/ros2/cp3_topic/topic_practice_ws/build/status_publisher/build/lib/status_publisher
+[0.663s] running install
+[0.664s] running install_lib
+[0.664s] creating /home/cofallen/Code/ros2/cp3_topic/topic_practice_ws/install/status_publisher/lib/python3.10/site-packages/status_publisher
+[0.664s] copying /home/cofallen/Code/ros2/cp3_topic/topic_practice_ws/build/status_publisher/build/lib/status_publisher/sys_status_pub.py -> /home/cofallen/Code/ros2/cp3_topic/topic_practice_ws/install/status_publisher/lib/python3.10/site-packages/status_publisher
+[0.664s] copying /home/cofallen/Code/ros2/cp3_topic/topic_practice_ws/build/status_publisher/build/lib/status_publisher/__init__.py -> /home/cofallen/Code/ros2/cp3_topic/topic_practice_ws/install/status_publisher/lib/python3.10/site-packages/status_publisher
+[0.665s] byte-compiling /home/cofallen/Code/ros2/cp3_topic/topic_practice_ws/install/status_publisher/lib/python3.10/site-packages/status_publisher/sys_status_pub.py to sys_status_pub.cpython-310.pyc
+[0.665s] byte-compiling /home/cofallen/Code/ros2/cp3_topic/topic_practice_ws/install/status_publisher/lib/python3.10/site-packages/status_publisher/__init__.py to __init__.cpython-310.pyc
+[0.665s] running install_data
+[0.665s] creating /home/cofallen/Code/ros2/cp3_topic/topic_practice_ws/install/status_publisher/share/ament_index
+[0.665s] creating /home/cofallen/Code/ros2/cp3_topic/topic_practice_ws/install/status_publisher/share/ament_index/resource_index
+[0.665s] creating /home/cofallen/Code/ros2/cp3_topic/topic_practice_ws/install/status_publisher/share/ament_index/resource_index/packages
+[0.665s] copying resource/status_publisher -> /home/cofallen/Code/ros2/cp3_topic/topic_practice_ws/install/status_publisher/share/ament_index/resource_index/packages
+[0.665s] copying package.xml -> /home/cofallen/Code/ros2/cp3_topic/topic_practice_ws/install/status_publisher/share/status_publisher
+[0.665s] running install_egg_info
+[0.667s] Copying ../../build/status_publisher/status_publisher.egg-info to /home/cofallen/Code/ros2/cp3_topic/topic_practice_ws/install/status_publisher/lib/python3.10/site-packages/status_publisher-0.0.0-py3.10.egg-info
+[0.667s] running install_scripts
+[0.682s] writing list of installed files to '/home/cofallen/Code/ros2/cp3_topic/topic_practice_ws/build/status_publisher/install.log'
+[0.699s] Invoked command in '/home/cofallen/Code/ros2/cp3_topic/topic_practice_ws/src/status_publisher' returned '0': PYTHONPATH=/home/cofallen/Code/ros2/cp3_topic/topic_practice_ws/build/status_publisher/prefix_override:/home/cofallen/.local/lib/python3.10/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/cofallen/Code/ros2/cp3_topic/topic_practice_ws/install/status_publisher/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/status_publisher build --build-base /home/cofallen/Code/ros2/cp3_topic/topic_practice_ws/build/status_publisher/build install --record /home/cofallen/Code/ros2/cp3_topic/topic_practice_ws/build/status_publisher/install.log --single-version-externally-managed install_data

@@ -64,9 +64,9 @@ class SystemStatus(metaclass=Metaclass_SystemStatus):
         '_stamp',
         '_host_name',
         '_cpu_percent',
-        '_meomery_percent',
-        '_meomery_total',
-        '_meomery_available',
+        '_memory_percent',
+        '_memory_total',
+        '_memory_available',
         '_net_sent',
         '_net_recv',
     ]
@@ -75,9 +75,9 @@ class SystemStatus(metaclass=Metaclass_SystemStatus):
         'stamp': 'builtin_interfaces/Time',
         'host_name': 'string',
         'cpu_percent': 'float',
-        'meomery_percent': 'float',
-        'meomery_total': 'float',
-        'meomery_available': 'float',
+        'memory_percent': 'float',
+        'memory_total': 'float',
+        'memory_available': 'float',
         'net_sent': 'double',
         'net_recv': 'double',
     }
@@ -101,9 +101,9 @@ class SystemStatus(metaclass=Metaclass_SystemStatus):
         self.stamp = kwargs.get('stamp', Time())
         self.host_name = kwargs.get('host_name', str())
         self.cpu_percent = kwargs.get('cpu_percent', float())
-        self.meomery_percent = kwargs.get('meomery_percent', float())
-        self.meomery_total = kwargs.get('meomery_total', float())
-        self.meomery_available = kwargs.get('meomery_available', float())
+        self.memory_percent = kwargs.get('memory_percent', float())
+        self.memory_total = kwargs.get('memory_total', float())
+        self.memory_available = kwargs.get('memory_available', float())
         self.net_sent = kwargs.get('net_sent', float())
         self.net_recv = kwargs.get('net_recv', float())
 
@@ -142,11 +142,11 @@ class SystemStatus(metaclass=Metaclass_SystemStatus):
             return False
         if self.cpu_percent != other.cpu_percent:
             return False
-        if self.meomery_percent != other.meomery_percent:
+        if self.memory_percent != other.memory_percent:
             return False
-        if self.meomery_total != other.meomery_total:
+        if self.memory_total != other.memory_total:
             return False
-        if self.meomery_available != other.meomery_available:
+        if self.memory_available != other.memory_available:
             return False
         if self.net_sent != other.net_sent:
             return False
@@ -202,49 +202,49 @@ class SystemStatus(metaclass=Metaclass_SystemStatus):
         self._cpu_percent = value
 
     @builtins.property
-    def meomery_percent(self):
-        """Message field 'meomery_percent'."""
-        return self._meomery_percent
+    def memory_percent(self):
+        """Message field 'memory_percent'."""
+        return self._memory_percent
 
-    @meomery_percent.setter
-    def meomery_percent(self, value):
+    @memory_percent.setter
+    def memory_percent(self, value):
         if __debug__:
             assert \
                 isinstance(value, float), \
-                "The 'meomery_percent' field must be of type 'float'"
+                "The 'memory_percent' field must be of type 'float'"
             assert not (value < -3.402823466e+38 or value > 3.402823466e+38) or math.isinf(value), \
-                "The 'meomery_percent' field must be a float in [-3.402823466e+38, 3.402823466e+38]"
-        self._meomery_percent = value
+                "The 'memory_percent' field must be a float in [-3.402823466e+38, 3.402823466e+38]"
+        self._memory_percent = value
 
     @builtins.property
-    def meomery_total(self):
-        """Message field 'meomery_total'."""
-        return self._meomery_total
+    def memory_total(self):
+        """Message field 'memory_total'."""
+        return self._memory_total
 
-    @meomery_total.setter
-    def meomery_total(self, value):
+    @memory_total.setter
+    def memory_total(self, value):
         if __debug__:
             assert \
                 isinstance(value, float), \
-                "The 'meomery_total' field must be of type 'float'"
+                "The 'memory_total' field must be of type 'float'"
             assert not (value < -3.402823466e+38 or value > 3.402823466e+38) or math.isinf(value), \
-                "The 'meomery_total' field must be a float in [-3.402823466e+38, 3.402823466e+38]"
-        self._meomery_total = value
+                "The 'memory_total' field must be a float in [-3.402823466e+38, 3.402823466e+38]"
+        self._memory_total = value
 
     @builtins.property
-    def meomery_available(self):
-        """Message field 'meomery_available'."""
-        return self._meomery_available
+    def memory_available(self):
+        """Message field 'memory_available'."""
+        return self._memory_available
 
-    @meomery_available.setter
-    def meomery_available(self, value):
+    @memory_available.setter
+    def memory_available(self, value):
         if __debug__:
             assert \
                 isinstance(value, float), \
-                "The 'meomery_available' field must be of type 'float'"
+                "The 'memory_available' field must be of type 'float'"
             assert not (value < -3.402823466e+38 or value > 3.402823466e+38) or math.isinf(value), \
-                "The 'meomery_available' field must be a float in [-3.402823466e+38, 3.402823466e+38]"
-        self._meomery_available = value
+                "The 'memory_available' field must be a float in [-3.402823466e+38, 3.402823466e+38]"
+        self._memory_available = value
 
     @builtins.property
     def net_sent(self):

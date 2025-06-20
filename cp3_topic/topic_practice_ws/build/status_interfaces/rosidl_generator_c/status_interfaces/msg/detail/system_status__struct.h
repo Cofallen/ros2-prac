@@ -34,11 +34,11 @@ typedef struct status_interfaces__msg__SystemStatus
   /// CPU 使用率
   float cpu_percent;
   /// 内存使用率
-  float meomery_percent;
+  float memory_percent;
   /// 内存总大小
-  float meomery_total;
+  float memory_total;
   /// 可用内存
-  float meomery_available;
+  float memory_available;
   /// 网络发送 MB (Bit)
   double net_sent;
   /// 网络接受 MB

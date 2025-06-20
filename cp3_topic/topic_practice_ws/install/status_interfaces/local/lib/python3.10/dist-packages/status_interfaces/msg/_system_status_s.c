@@ -92,31 +92,31 @@ bool status_interfaces__msg__system_status__convert_from_py(PyObject * _pymsg, v
     ros_message->cpu_percent = (float)PyFloat_AS_DOUBLE(field);
     Py_DECREF(field);
   }
-  {  // meomery_percent
-    PyObject * field = PyObject_GetAttrString(_pymsg, "meomery_percent");
+  {  // memory_percent
+    PyObject * field = PyObject_GetAttrString(_pymsg, "memory_percent");
     if (!field) {
       return false;
     }
     assert(PyFloat_Check(field));
-    ros_message->meomery_percent = (float)PyFloat_AS_DOUBLE(field);
+    ros_message->memory_percent = (float)PyFloat_AS_DOUBLE(field);
     Py_DECREF(field);
   }
-  {  // meomery_total
-    PyObject * field = PyObject_GetAttrString(_pymsg, "meomery_total");
+  {  // memory_total
+    PyObject * field = PyObject_GetAttrString(_pymsg, "memory_total");
     if (!field) {
       return false;
     }
     assert(PyFloat_Check(field));
-    ros_message->meomery_total = (float)PyFloat_AS_DOUBLE(field);
+    ros_message->memory_total = (float)PyFloat_AS_DOUBLE(field);
     Py_DECREF(field);
   }
-  {  // meomery_available
-    PyObject * field = PyObject_GetAttrString(_pymsg, "meomery_available");
+  {  // memory_available
+    PyObject * field = PyObject_GetAttrString(_pymsg, "memory_available");
     if (!field) {
       return false;
     }
     assert(PyFloat_Check(field));
-    ros_message->meomery_available = (float)PyFloat_AS_DOUBLE(field);
+    ros_message->memory_available = (float)PyFloat_AS_DOUBLE(field);
     Py_DECREF(field);
   }
   {  // net_sent
@@ -201,33 +201,33 @@ PyObject * status_interfaces__msg__system_status__convert_to_py(void * raw_ros_m
       }
     }
   }
-  {  // meomery_percent
+  {  // memory_percent
     PyObject * field = NULL;
-    field = PyFloat_FromDouble(ros_message->meomery_percent);
+    field = PyFloat_FromDouble(ros_message->memory_percent);
     {
-      int rc = PyObject_SetAttrString(_pymessage, "meomery_percent", field);
+      int rc = PyObject_SetAttrString(_pymessage, "memory_percent", field);
       Py_DECREF(field);
       if (rc) {
         return NULL;
       }
     }
   }
-  {  // meomery_total
+  {  // memory_total
     PyObject * field = NULL;
-    field = PyFloat_FromDouble(ros_message->meomery_total);
+    field = PyFloat_FromDouble(ros_message->memory_total);
     {
-      int rc = PyObject_SetAttrString(_pymessage, "meomery_total", field);
+      int rc = PyObject_SetAttrString(_pymessage, "memory_total", field);
       Py_DECREF(field);
       if (rc) {
         return NULL;
       }
     }
   }
-  {  // meomery_available
+  {  // memory_available
     PyObject * field = NULL;
-    field = PyFloat_FromDouble(ros_message->meomery_available);
+    field = PyFloat_FromDouble(ros_message->memory_available);
     {
-      int rc = PyObject_SetAttrString(_pymessage, "meomery_available", field);
+      int rc = PyObject_SetAttrString(_pymessage, "memory_available", field);
       Py_DECREF(field);
       if (rc) {
         return NULL;

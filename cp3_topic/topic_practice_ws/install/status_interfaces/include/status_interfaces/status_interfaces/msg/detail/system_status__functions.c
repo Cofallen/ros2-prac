@@ -34,9 +34,9 @@ status_interfaces__msg__SystemStatus__init(status_interfaces__msg__SystemStatus 
     return false;
   }
   // cpu_percent
-  // meomery_percent
-  // meomery_total
-  // meomery_available
+  // memory_percent
+  // memory_total
+  // memory_available
   // net_sent
   // net_recv
   return true;
@@ -53,9 +53,9 @@ status_interfaces__msg__SystemStatus__fini(status_interfaces__msg__SystemStatus 
   // host_name
   rosidl_runtime_c__String__fini(&msg->host_name);
   // cpu_percent
-  // meomery_percent
-  // meomery_total
-  // meomery_available
+  // memory_percent
+  // memory_total
+  // memory_available
   // net_sent
   // net_recv
 }
@@ -82,16 +82,16 @@ status_interfaces__msg__SystemStatus__are_equal(const status_interfaces__msg__Sy
   if (lhs->cpu_percent != rhs->cpu_percent) {
     return false;
   }
-  // meomery_percent
-  if (lhs->meomery_percent != rhs->meomery_percent) {
+  // memory_percent
+  if (lhs->memory_percent != rhs->memory_percent) {
     return false;
   }
-  // meomery_total
-  if (lhs->meomery_total != rhs->meomery_total) {
+  // memory_total
+  if (lhs->memory_total != rhs->memory_total) {
     return false;
   }
-  // meomery_available
-  if (lhs->meomery_available != rhs->meomery_available) {
+  // memory_available
+  if (lhs->memory_available != rhs->memory_available) {
     return false;
   }
   // net_sent
@@ -127,12 +127,12 @@ status_interfaces__msg__SystemStatus__copy(
   }
   // cpu_percent
   output->cpu_percent = input->cpu_percent;
-  // meomery_percent
-  output->meomery_percent = input->meomery_percent;
-  // meomery_total
-  output->meomery_total = input->meomery_total;
-  // meomery_available
-  output->meomery_available = input->meomery_available;
+  // memory_percent
+  output->memory_percent = input->memory_percent;
+  // memory_total
+  output->memory_total = input->memory_total;
+  // memory_available
+  output->memory_available = input->memory_available;
   // net_sent
   output->net_sent = input->net_sent;
   // net_recv

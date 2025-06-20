@@ -45,9 +45,9 @@ struct SystemStatus_
     {
       this->host_name = "";
       this->cpu_percent = 0.0f;
-      this->meomery_percent = 0.0f;
-      this->meomery_total = 0.0f;
-      this->meomery_available = 0.0f;
+      this->memory_percent = 0.0f;
+      this->memory_total = 0.0f;
+      this->memory_available = 0.0f;
       this->net_sent = 0.0;
       this->net_recv = 0.0;
     }
@@ -62,9 +62,9 @@ struct SystemStatus_
     {
       this->host_name = "";
       this->cpu_percent = 0.0f;
-      this->meomery_percent = 0.0f;
-      this->meomery_total = 0.0f;
-      this->meomery_available = 0.0f;
+      this->memory_percent = 0.0f;
+      this->memory_total = 0.0f;
+      this->memory_available = 0.0f;
       this->net_sent = 0.0;
       this->net_recv = 0.0;
     }
@@ -80,15 +80,15 @@ struct SystemStatus_
   using _cpu_percent_type =
     float;
   _cpu_percent_type cpu_percent;
-  using _meomery_percent_type =
+  using _memory_percent_type =
     float;
-  _meomery_percent_type meomery_percent;
-  using _meomery_total_type =
+  _memory_percent_type memory_percent;
+  using _memory_total_type =
     float;
-  _meomery_total_type meomery_total;
-  using _meomery_available_type =
+  _memory_total_type memory_total;
+  using _memory_available_type =
     float;
-  _meomery_available_type meomery_available;
+  _memory_available_type memory_available;
   using _net_sent_type =
     double;
   _net_sent_type net_sent;
@@ -115,22 +115,22 @@ struct SystemStatus_
     this->cpu_percent = _arg;
     return *this;
   }
-  Type & set__meomery_percent(
+  Type & set__memory_percent(
     const float & _arg)
   {
-    this->meomery_percent = _arg;
+    this->memory_percent = _arg;
     return *this;
   }
-  Type & set__meomery_total(
+  Type & set__memory_total(
     const float & _arg)
   {
-    this->meomery_total = _arg;
+    this->memory_total = _arg;
     return *this;
   }
-  Type & set__meomery_available(
+  Type & set__memory_available(
     const float & _arg)
   {
-    this->meomery_available = _arg;
+    this->memory_available = _arg;
     return *this;
   }
   Type & set__net_sent(
@@ -197,13 +197,13 @@ struct SystemStatus_
     if (this->cpu_percent != other.cpu_percent) {
       return false;
     }
-    if (this->meomery_percent != other.meomery_percent) {
+    if (this->memory_percent != other.memory_percent) {
       return false;
     }
-    if (this->meomery_total != other.meomery_total) {
+    if (this->memory_total != other.memory_total) {
       return false;
     }
-    if (this->meomery_available != other.meomery_available) {
+    if (this->memory_available != other.memory_available) {
       return false;
     }
     if (this->net_sent != other.net_sent) {

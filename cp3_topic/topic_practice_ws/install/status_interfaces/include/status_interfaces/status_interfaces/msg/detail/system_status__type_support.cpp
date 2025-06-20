@@ -90,14 +90,14 @@ static const ::rosidl_typesupport_introspection_cpp::MessageMember SystemStatus_
     nullptr  // resize(index) function pointer
   },
   {
-    "meomery_percent",  // name
+    "memory_percent",  // name
     ::rosidl_typesupport_introspection_cpp::ROS_TYPE_FLOAT,  // type
     0,  // upper bound of string
     nullptr,  // members of sub message
     false,  // is array
     0,  // array size
     false,  // is upper bound
-    offsetof(status_interfaces::msg::SystemStatus, meomery_percent),  // bytes offset in struct
+    offsetof(status_interfaces::msg::SystemStatus, memory_percent),  // bytes offset in struct
     nullptr,  // default value
     nullptr,  // size() function pointer
     nullptr,  // get_const(index) function pointer
@@ -107,14 +107,14 @@ static const ::rosidl_typesupport_introspection_cpp::MessageMember SystemStatus_
     nullptr  // resize(index) function pointer
   },
   {
-    "meomery_total",  // name
+    "memory_total",  // name
     ::rosidl_typesupport_introspection_cpp::ROS_TYPE_FLOAT,  // type
     0,  // upper bound of string
     nullptr,  // members of sub message
     false,  // is array
     0,  // array size
     false,  // is upper bound
-    offsetof(status_interfaces::msg::SystemStatus, meomery_total),  // bytes offset in struct
+    offsetof(status_interfaces::msg::SystemStatus, memory_total),  // bytes offset in struct
     nullptr,  // default value
     nullptr,  // size() function pointer
     nullptr,  // get_const(index) function pointer
@@ -124,14 +124,14 @@ static const ::rosidl_typesupport_introspection_cpp::MessageMember SystemStatus_
     nullptr  // resize(index) function pointer
   },
   {
-    "meomery_available",  // name
+    "memory_available",  // name
     ::rosidl_typesupport_introspection_cpp::ROS_TYPE_FLOAT,  // type
     0,  // upper bound of string
     nullptr,  // members of sub message
     false,  // is array
     0,  // array size
     false,  // is upper bound
-    offsetof(status_interfaces::msg::SystemStatus, meomery_available),  // bytes offset in struct
+    offsetof(status_interfaces::msg::SystemStatus, memory_available),  // bytes offset in struct
     nullptr,  // default value
     nullptr,  // size() function pointer
     nullptr,  // get_const(index) function pointer

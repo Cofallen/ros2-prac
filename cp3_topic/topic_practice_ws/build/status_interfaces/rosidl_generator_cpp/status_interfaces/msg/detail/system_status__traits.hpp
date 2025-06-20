@@ -50,24 +50,24 @@ inline void to_flow_style_yaml(
     out << ", ";
   }
 
-  // member: meomery_percent
+  // member: memory_percent
   {
-    out << "meomery_percent: ";
-    rosidl_generator_traits::value_to_yaml(msg.meomery_percent, out);
+    out << "memory_percent: ";
+    rosidl_generator_traits::value_to_yaml(msg.memory_percent, out);
     out << ", ";
   }
 
-  // member: meomery_total
+  // member: memory_total
   {
-    out << "meomery_total: ";
-    rosidl_generator_traits::value_to_yaml(msg.meomery_total, out);
+    out << "memory_total: ";
+    rosidl_generator_traits::value_to_yaml(msg.memory_total, out);
     out << ", ";
   }
 
-  // member: meomery_available
+  // member: memory_available
   {
-    out << "meomery_available: ";
-    rosidl_generator_traits::value_to_yaml(msg.meomery_available, out);
+    out << "memory_available: ";
+    rosidl_generator_traits::value_to_yaml(msg.memory_available, out);
     out << ", ";
   }
 
@@ -119,33 +119,33 @@ inline void to_block_style_yaml(
     out << "\n";
   }
 
-  // member: meomery_percent
+  // member: memory_percent
   {
     if (indentation > 0) {
       out << std::string(indentation, ' ');
     }
-    out << "meomery_percent: ";
-    rosidl_generator_traits::value_to_yaml(msg.meomery_percent, out);
+    out << "memory_percent: ";
+    rosidl_generator_traits::value_to_yaml(msg.memory_percent, out);
     out << "\n";
   }
 
-  // member: meomery_total
+  // member: memory_total
   {
     if (indentation > 0) {
       out << std::string(indentation, ' ');
     }
-    out << "meomery_total: ";
-    rosidl_generator_traits::value_to_yaml(msg.meomery_total, out);
+    out << "memory_total: ";
+    rosidl_generator_traits::value_to_yaml(msg.memory_total, out);
     out << "\n";
   }
 
-  // member: meomery_available
+  // member: memory_available
   {
     if (indentation > 0) {
       out << std::string(indentation, ' ');
     }
-    out << "meomery_available: ";
-    rosidl_generator_traits::value_to_yaml(msg.meomery_available, out);
+    out << "memory_available: ";
+    rosidl_generator_traits::value_to_yaml(msg.memory_available, out);
     out << "\n";
   }
 

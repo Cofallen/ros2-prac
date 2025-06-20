@@ -92,14 +92,14 @@ static rosidl_typesupport_introspection_c__MessageMember status_interfaces__msg_
     NULL  // resize(index) function pointer
   },
   {
-    "meomery_percent",  // name
+    "memory_percent",  // name
     rosidl_typesupport_introspection_c__ROS_TYPE_FLOAT,  // type
     0,  // upper bound of string
     NULL,  // members of sub message
     false,  // is array
     0,  // array size
     false,  // is upper bound
-    offsetof(status_interfaces__msg__SystemStatus, meomery_percent),  // bytes offset in struct
+    offsetof(status_interfaces__msg__SystemStatus, memory_percent),  // bytes offset in struct
     NULL,  // default value
     NULL,  // size() function pointer
     NULL,  // get_const(index) function pointer
@@ -109,14 +109,14 @@ static rosidl_typesupport_introspection_c__MessageMember status_interfaces__msg_
     NULL  // resize(index) function pointer
   },
   {
-    "meomery_total",  // name
+    "memory_total",  // name
     rosidl_typesupport_introspection_c__ROS_TYPE_FLOAT,  // type
     0,  // upper bound of string
     NULL,  // members of sub message
     false,  // is array
     0,  // array size
     false,  // is upper bound
-    offsetof(status_interfaces__msg__SystemStatus, meomery_total),  // bytes offset in struct
+    offsetof(status_interfaces__msg__SystemStatus, memory_total),  // bytes offset in struct
     NULL,  // default value
     NULL,  // size() function pointer
     NULL,  // get_const(index) function pointer
@@ -126,14 +126,14 @@ static rosidl_typesupport_introspection_c__MessageMember status_interfaces__msg_
     NULL  // resize(index) function pointer
   },
   {
-    "meomery_available",  // name
+    "memory_available",  // name
     rosidl_typesupport_introspection_c__ROS_TYPE_FLOAT,  // type
     0,  // upper bound of string
     NULL,  // members of sub message
     false,  // is array
     0,  // array size
     false,  // is upper bound
-    offsetof(status_interfaces__msg__SystemStatus, meomery_available),  // bytes offset in struct
+    offsetof(status_interfaces__msg__SystemStatus, memory_available),  // bytes offset in struct
     NULL,  // default value
     NULL,  // size() function pointer
     NULL,  // get_const(index) function pointer
