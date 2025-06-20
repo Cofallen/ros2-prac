@@ -1,0 +1,8 @@
+builtin_interfaces/Time stamp # 记录时间戳
+string host_name              # 主机名字
+float32 cpu_percent           # CPU 使用率
+float32 meomery_percent       # 内存使用率
+float32 meomery_total         # 内存总大小
+float32 meomery_available     # 可用内存
+float64 net_sent              # 网络发送 MB (Bit)
+float64 net_recv              # 网络接受 MB
