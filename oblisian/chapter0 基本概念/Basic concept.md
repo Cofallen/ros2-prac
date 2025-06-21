@@ -101,7 +101,7 @@ ros2 param set /turtlesim background_g 100
 ros2 param set /turtlesim background_b 100
 
 # 存储
-ros2 param dump <node_name>
+ros2 param dump <node_name> > xxx.yaml
 
 # 加载
 ros2 param load <node_name> <parameter_file>
