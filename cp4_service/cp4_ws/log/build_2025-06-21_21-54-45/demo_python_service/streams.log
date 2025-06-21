@@ -1,0 +1,25 @@
+[0.484s] Invoking command in '/home/cofallen/Code/ros2/cp4_service/cp4_ws/src/demo_python_service': PYTHONPATH=/home/cofallen/Code/ros2/cp4_service/cp4_ws/build/demo_python_service/prefix_override:/home/cofallen/.local/lib/python3.10/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/cofallen/Code/ros2/cp4_service/cp4_ws/install/demo_python_service/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/demo_python_service build --build-base /home/cofallen/Code/ros2/cp4_service/cp4_ws/build/demo_python_service/build install --record /home/cofallen/Code/ros2/cp4_service/cp4_ws/build/demo_python_service/install.log --single-version-externally-managed install_data
+[0.663s] running egg_info
+[0.663s] writing ../../build/demo_python_service/demo_python_service.egg-info/PKG-INFO
+[0.663s] writing dependency_links to ../../build/demo_python_service/demo_python_service.egg-info/dependency_links.txt
+[0.663s] writing entry points to ../../build/demo_python_service/demo_python_service.egg-info/entry_points.txt
+[0.664s] writing requirements to ../../build/demo_python_service/demo_python_service.egg-info/requires.txt
+[0.664s] writing top-level names to ../../build/demo_python_service/demo_python_service.egg-info/top_level.txt
+[0.665s] reading manifest file '../../build/demo_python_service/demo_python_service.egg-info/SOURCES.txt'
+[0.666s] adding license file 'LICENSE'
+[0.666s] writing manifest file '../../build/demo_python_service/demo_python_service.egg-info/SOURCES.txt'
+[0.667s] running build
+[0.667s] running build_py
+[0.667s] copying demo_python_service/learn_face_detect.py -> /home/cofallen/Code/ros2/cp4_service/cp4_ws/build/demo_python_service/build/lib/demo_python_service
+[0.667s] running install
+[0.667s] running install_lib
+[0.668s] copying /home/cofallen/Code/ros2/cp4_service/cp4_ws/build/demo_python_service/build/lib/demo_python_service/learn_face_detect.py -> /home/cofallen/Code/ros2/cp4_service/cp4_ws/install/demo_python_service/lib/python3.10/site-packages/demo_python_service
+[0.668s] byte-compiling /home/cofallen/Code/ros2/cp4_service/cp4_ws/install/demo_python_service/lib/python3.10/site-packages/demo_python_service/learn_face_detect.py to learn_face_detect.cpython-310.pyc
+[0.669s] running install_data
+[0.669s] running install_egg_info
+[0.671s] removing '/home/cofallen/Code/ros2/cp4_service/cp4_ws/install/demo_python_service/lib/python3.10/site-packages/demo_python_service-0.0.0-py3.10.egg-info' (and everything under it)
+[0.671s] Copying ../../build/demo_python_service/demo_python_service.egg-info to /home/cofallen/Code/ros2/cp4_service/cp4_ws/install/demo_python_service/lib/python3.10/site-packages/demo_python_service-0.0.0-py3.10.egg-info
+[0.672s] running install_scripts
+[0.691s] Installing learn_face_detect script to /home/cofallen/Code/ros2/cp4_service/cp4_ws/install/demo_python_service/lib/demo_python_service
+[0.691s] writing list of installed files to '/home/cofallen/Code/ros2/cp4_service/cp4_ws/build/demo_python_service/install.log'
+[0.722s] Invoked command in '/home/cofallen/Code/ros2/cp4_service/cp4_ws/src/demo_python_service' returned '0': PYTHONPATH=/home/cofallen/Code/ros2/cp4_service/cp4_ws/build/demo_python_service/prefix_override:/home/cofallen/.local/lib/python3.10/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/cofallen/Code/ros2/cp4_service/cp4_ws/install/demo_python_service/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/demo_python_service build --build-base /home/cofallen/Code/ros2/cp4_service/cp4_ws/build/demo_python_service/build install --record /home/cofallen/Code/ros2/cp4_service/cp4_ws/build/demo_python_service/install.log --single-version-externally-managed install_data

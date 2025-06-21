@@ -1,0 +1,4 @@
+Invoking command in '/home/cofallen/Code/ros2/cp4_service/cp4_ws/build/chap4_interface': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/cofallen/Code/ros2/cp4_service/cp4_ws/build/chap4_interface -- -j12 -l12
+Invoked command in '/home/cofallen/Code/ros2/cp4_service/cp4_ws/build/chap4_interface' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/cofallen/Code/ros2/cp4_service/cp4_ws/build/chap4_interface -- -j12 -l12
+Invoking command in '/home/cofallen/Code/ros2/cp4_service/cp4_ws/build/chap4_interface': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/cofallen/Code/ros2/cp4_service/cp4_ws/build/chap4_interface
+Invoked command in '/home/cofallen/Code/ros2/cp4_service/cp4_ws/build/chap4_interface' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/cofallen/Code/ros2/cp4_service/cp4_ws/build/chap4_interface
