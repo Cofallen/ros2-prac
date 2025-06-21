@@ -1,0 +1,233 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-d09e3e6d0fb6cadad5b4.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17
+					]
+				},
+				{
+					"build" : "chap4_interface__py",
+					"jsonFile" : "directory-chap4_interface__py-5abe822769b1f29070bb.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/cofallen/Code/ros2/cp4_service/cp4_ws/build/chap4_interface/chap4_interface__py",
+					"targetIndexes" : 
+					[
+						4
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1
+					],
+					"name" : "chap4_interface",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_chap4_interface_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_chap4_interface_egg-b8fd893c05d9011146e2.json",
+					"name" : "ament_cmake_python_build_chap4_interface_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_copy_chap4_interface::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_copy_chap4_interface-d376b3d49477d86f07eb.json",
+					"name" : "ament_cmake_python_copy_chap4_interface",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "chap4_interface::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-chap4_interface-e438c92eedc145229c41.json",
+					"name" : "chap4_interface",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "chap4_interface__cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-chap4_interface__cpp-7c6ebb1949ece1a4c6fd.json",
+					"name" : "chap4_interface__cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "chap4_interface__py::@10d0fad289cefabef31e",
+					"jsonFile" : "target-chap4_interface__py-388c27e7357a07178691.json",
+					"name" : "chap4_interface__py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "chap4_interface__rosidl_generator_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-chap4_interface__rosidl_generator_c-0216910897926e454bae.json",
+					"name" : "chap4_interface__rosidl_generator_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "chap4_interface__rosidl_generator_py::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-chap4_interface__rosidl_generator_py-3fd1ecde2d9563d6da92.json",
+					"name" : "chap4_interface__rosidl_generator_py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "chap4_interface__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-chap4_interface__rosidl_typesupport_c-669968817b019e6a91e2.json",
+					"name" : "chap4_interface__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "chap4_interface__rosidl_typesupport_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-chap4_interface__rosidl_typesupport_c__pyext-5d28571db547a3334a56.json",
+					"name" : "chap4_interface__rosidl_typesupport_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "chap4_interface__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-chap4_interface__rosidl_typesupport_cpp-d96a8a3630414f7f2270.json",
+					"name" : "chap4_interface__rosidl_typesupport_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "chap4_interface__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-chap4_interface__rosidl_typesupport_fastrtps_c-962ed6d4cd12fbc81146.json",
+					"name" : "chap4_interface__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "chap4_interface__rosidl_typesupport_fastrtps_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-chap4_interface__rosidl_typesupport_fastrtps_c__pyext-8c08ac458fcccf20e63b.json",
+					"name" : "chap4_interface__rosidl_typesupport_fastrtps_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "chap4_interface__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-chap4_interface__rosidl_typesupport_fastrtps_cpp-597a6e1abd5c8d109f96.json",
+					"name" : "chap4_interface__rosidl_typesupport_fastrtps_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "chap4_interface__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-chap4_interface__rosidl_typesupport_introspection_c-d7358c689e09ce3e995f.json",
+					"name" : "chap4_interface__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "chap4_interface__rosidl_typesupport_introspection_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-chap4_interface__rosidl_typesupport_introspection_c__pyext-af143fd727e54a57d24d.json",
+					"name" : "chap4_interface__rosidl_typesupport_introspection_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "chap4_interface__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-chap4_interface__rosidl_typesupport_introspection_cpp-1721a7e58afe416a1df6.json",
+					"name" : "chap4_interface__rosidl_typesupport_introspection_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "chap4_interface_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-chap4_interface_uninstall-add33b67d6e3dbc84aee.json",
+					"name" : "chap4_interface_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-71b1200f96c30421e84c.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/cofallen/Code/ros2/cp4_service/cp4_ws/build/chap4_interface",
+		"source" : "/home/cofallen/Code/ros2/cp4_service/cp4_ws/src/chap4_interface"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}
