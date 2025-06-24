@@ -15,6 +15,7 @@ class FaceDetectNode(Node):
         self.bridge = CvBridge()
         self.number_of_times_to_upsample = 1
         self.model = 'hog'
+        self.get_logger().info("启动人脸检测服务...")
         self.default_image_path = os.path.join(get_package_share_directory('demo_python_service'), 'resource/default.jpeg')
         
     def detect_face_callback(self, request:FaceDetector, response):
